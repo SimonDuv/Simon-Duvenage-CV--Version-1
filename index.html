@@ -11,31 +11,117 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
 
     <title>Simon Duvenage CV</title>
   </head>
   <body>
-    <header class="section-profile">
-      <div class="container container--profile">
-        <div class="profile-img-box">
-          <img
-            src="img/profile.jpg"
-            alt="Portrait of Simon Duvenage"
-            class="profile-img"
-          />
+    <header class="header">
+      <nav class="nav">
+        <a href="#" class="home-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon-home"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
+              class="icon-home"
+            />
+          </svg>
+        </a>
+
+        <ul class="nav-links">
+          <li>
+            <a href="#" class="nav-link">Education</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">Work Experience</a>
+          </li>
+          <li>
+            <a href="#" class="nav-link">Skills and Experience</a>
+          </li>
+        </ul>
+      </nav>
+      <section class="section-profile">
+        <div class="container container--profile">
+          <div class="profile-img-box">
+            <img
+              src="img/profile.jpg"
+              alt="Portrait of Simon Duvenage"
+              class="profile-img"
+            />
+          </div>
+          <div class="profile-text-box">
+            <h1 class="heading-primary">Simon Duvenage</h1>
+            <p class="profile-text">
+              I am a creative, critical thinking student that is currently
+              pursuing an education in IT, with a focus on web development. I am
+              very eager to learn and expand my knowledge and skillset, in
+              addition to gaining valuable experience in any and all available
+              subjects.
+            </p>
+          </div>
         </div>
-        <div class="profile-text-box">
-          <h1 class="profile-title">Simon Duvenage</h1>
-          <p class="profile-text">
-            I am a creative, critical thinking student that is currently
-            pursuing an education in IT, with a focus on web development. I am
-            very eager to learn and expand my knowledge and skillset, in
-            addition to gaining valuable experience in any and all available
-            subjects.
-          </p>
-        </div>
-      </div>
+      </section>
     </header>
+    <div class="profile-education-gradient"></div>
+    <section class="section-education">
+      <div class="container test">
+        <h2 class="heading-secondary">Education</h2>
+        <ul class="education-list">
+          <li class="education-list-item">
+            <p class="education-name">
+              Build Responsive Real-World Websites with HTML and CSS
+            </p>
+            <span class="education-extra-info">Online | Udemy | 2023</span>
+          </li>
+          <li class="education-list-item">
+            <p class="education-name">
+              The Complete JavaScript Course 2023 - From Zero to Expert
+            </p>
+            <span class="education-extra-info">Online | Udemy | 2023</span>
+          </li>
+          <li class="education-list-item">
+            <p class="education-name">
+              The Complete Python Bootcamp - From Zero To Hero in Python
+            </p>
+            <span class="education-extra-info">Online | Udemy | 2023</span>
+          </li>
+          <li class="education-list-item">
+            <p class="education-name">Graphic Design Course</p>
+            <span class="education-extra-info"
+              >Online | Shaw Academy | 2023</span
+            >
+          </li>
+          <li class="education-list-item">
+            <p class="education-name">General Microbotics Course</p>
+            <span class="education-extra-info"
+              >Creare, Bloemfontein | 2016</span
+            >
+          </li>
+          <li class="education-list-item">
+            <p class="education-name">Chef 101</p>
+            <span class="education-extra-info"
+              >Online | Capsicum Culinary Studio | 2021</span
+            >
+          </li>
+          <li class="education-list-item">
+            <p class="education-name">GED (American Matric Equivalent)</p>
+            <span class="education-extra-info">Online | 2019</span>
+          </li>
+          <li class="education-list-item">
+            <p class="education-name">Home-schooling</p>
+            <span class="education-extra-info">2010-2019</span>
+          </li>
+        </ul>
+      </div>
+    </section>
   </body>
 </html>
