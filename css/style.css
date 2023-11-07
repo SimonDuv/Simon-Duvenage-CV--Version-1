@@ -109,21 +109,27 @@ body {
 
 .section-education {
   background-color: #f5f5f4;
-  padding-top: 4.8rem;
+  padding: 4.8rem 0 9.6rem;
 }
 
 .education-list {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 3.2rem;
 }
 
-.education-name {
+.list-item-heading {
   font-size: 3rem;
   text-align: center;
 }
 
-.education-extra-info {
+.list-item-subheading {
+  font-size: 2.4rem;
+  /* text-align: center; */
+}
+
+.list-item-extra-info {
   font-size: 1.6rem;
   font-weight: 400;
   color: #555;
@@ -131,6 +137,29 @@ body {
   text-align: center;
 }
 
-.test {
-  /* width: 80rem !important; */
+/*********************/
+/* Work Section */
+/*********************/
+
+.section-work {
+  padding: 4.8rem 0 9.6rem;
+  background-color: #fafaf9;
+}
+
+.work-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.responsibility-list {
+  /* text-align: center; */
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.responsibility-list-item {
+  font-size: 1.6rem;
 }
